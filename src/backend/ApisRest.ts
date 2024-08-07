@@ -1,9 +1,10 @@
 const Make = "https://hook.us1.make.com/vp6lv73bmg5xo4tsrmr4yz4k0voug997"
 
-const SendMail = async (Name:string ,Number:string, Opcion:string) => {
+const SendMail = async (Name:string ,NumberA:string,Number:string, Opcion:string) => {
     try {
         const payload = {
             Name: Name,
+            NumberA: NumberA,
             Number:Number,
             Opcion: Opcion,
         };
